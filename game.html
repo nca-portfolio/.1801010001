@@ -7,55 +7,89 @@
 <!-- style要素指定が簡素に -->
 <style>
 /* cssをここに */
-	#Work,#Language{
+	#Work{
 		position:		absolute;
 		left:			50px;
+		top:			40px;
 		font-size:		40px;
 	}
-
-	#Work{
-		top:			40px;
+	
+	#Inokawa{
+		position:		absolute;
+		top:			150px;
+		font-size: 		30px;
 	}
 	
-	#Language{
-		top:			610px;
+	#Inokawa_movie{
+		position:		absolute;
+		top:			200px;
 	}
+	
+	#Inokawa,#Inokawa_movie{
+		left:			100px;
+	}
+	
+	#Inokawa_text{
+		position:		absolute;
+		top:			600px;
+		left:			100px;
+		font-size: 		20px;
+	}
+	
+	#Tenryu{
+		position:		absolute;
+		top:			150px;
+		font-size: 		30px;
+	}
+	
+	#Tenryu_movie{
+		position:		absolute;
+		top:			200px;
+	}
+	
+	#Tenryu,#Tenryu_movie{
+		left:			1000px;
+	}
+	
+	#Tenryu_text{
+		position:		absolute;
+		top:			600px;
+		left:			1000px;
+		font-size: 		20px;
+	}
+	
 
 	#Return{
 		position:		absolute;
 		left:			1500px;
 		font-size:		20px;
-		top:			1000px;
+		top:			900px;
 	}
 	
 </style>
 </head>
 <body>
 
-<label id = "Work">作品一覧</label>
+	<label id = "Work">作品一覧</label>
+	
+	<label id = "Inokawa">井の中の蛙大海を知る</label>
+	<label id = "Inokawa_movie">
+	<video src= "Movie/Inokawa.mp4" poster = "Images/Inokawa.png" width = "640" height = "360" controls preload = "metadata"></video>
+	</label>
+	
+	<label id = "Tenryu">天龍</label>
+	<label id = "Tenryu_movie">
+	<video src= "Movie/Tenryu.mp4" poster = "Images/Tenryu.png" width = width = "640" height = "360" controls preload = "metadata"></video>
+	</label>
+	
+	<label id = "Inokawa_text"><br>TOKYO GAMAE SHOW 2019 展示作品<br><br>「class」を初めて使用した作品で完成までに時間がかかってしまいました。
+								<br>classを使用できるようになったことで次回以降の作品で<br>多人数のプログラマーとチーム制作を行う際に他のプログラマーとの<br>競合が減り作業効率が上げることができました。</label>
+	<label id = "Inokawa_text"><a href="inokawa.html">概要</a></label>
+	
+	<label id = "Tenryu_text"><br>2年生進級制作展　展示作品<br><br>作品「Arizona4」のプログラムをもとに作成しました。<br>今まで制作してきた経験をもとにチームメンバー全員で今できる<br>最大限の力を使って作成しました。</label>
+	<label id = "Tenryu_text"><a href="tenryu.html">概要</a></label>
 
-<br>
-<br>
-<br>
-<br>
-
-<table border="1" cellspacing="0" cellpadding="0">
-	<tr>
-		<td bgcolor="#FFFFFF" align="center" valign="middle" width="300" height="30">Arizona4</td>
-		<td bgcolor="#FFFFFF" align="center" valign="middle" width="300" height="30">Repair</td>
-		<td bgcolor="#FFFFFF" align="center" valign="middle" width="300" height="30">井の中の蛙大海を知る</td>
-		<td bgcolor="#FFFFFF" align="center" valign="middle" width="300" height="30">天龍</td>
-	</tr>
-	<tr>
-		<td bgcolor="#FFFFFF" align="center" valign="middle" width="300" height="150"><img src="Images/Arizona4.png" width = "80%"></td>
-		<td bgcolor="#FFFFFF" align="center" valign="middle" width="300" height="150"><img src="Images/Reoair.png" width = "80%"></td>
-		<td bgcolor="#FFFFFF" align="center" valign="middle" width="300" height="150"><img src="Images/Inokawa.png" width = "80%"></td>
-	</tr>
-</table>
-
-<br>
-
-	<label id = "Return"><a href="index.html">戻る</a></label>
+	<label id = "Return"><a href="Index.html">戻る</a></label>
 
 <!-- script要素指定が簡素に -->
 <script>
