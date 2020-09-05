@@ -9,49 +9,123 @@
 <style>
 /* cssをここに */
 	
-	#Index{
+	#Image1{
+		position:		absolute;
+		top:			100px;
+		left:			100px;
+	}
+	
+	#Image2{
+		position:		absolute;
+		top:			100px;
+		left:			500px;
+	}
+	
+	#Self{
 		position:		absolute;
 		top:			30px;
 		left:			50px;
 		font-size:		40px;
 	}
 	
-	#Self,#Work,#Soft_Language,#IsSelf,#IsWork,#IsSoft_Language{
+	#Name,#Birthday,#Game,#Hobby,#Food,#IsName,#IsBirthday,#IsGame,#IsHobby,#IsFood{
 		position:		absolute;
 		
 	}
 	
-	#Self,#Work,#Soft_Language{
+	#Name,#Birthday,#Game,#Hobby,#Food{
 		left:			100px;
 		font-size:		20px;
 		transform: translate(0, +25%)
 	}
 	
-	#IsSelf,#IsWork,#IsSoft_Language{
+	#IsName,#IsBirthday,#IsGame,#IsHobby,#IsFood{
 		left:			350px;
 		font-size:		30px;
 	}
 	
-	#Self,#IsSelf{
-		top:			100px;
+	#Name,#IsName{
+		top:			400px;
 	}
 	
+	#Birthday,#IsBirthday{
+		top:			450px;
+	}
+	
+	#Game,#IsGame{
+		top:			500px;
+	}
+	
+	#Hobby,#IsHobby{
+		top:			550px;
+	}
+	
+	#Food,#IsFood{
+		top:			600px;
+	}
+	
+	#Index{
+		position:		absolute;
+		top:			700px;
+		left:			50px;
+		font-size:		40px;
+	}
+	
+	#Work,#Soft_Language,#IsSelf,#IsWork,#IsSoft_Language{
+		position:		absolute;
+		
+	}
+	
+	#Work,#Soft_Language{
+		left:			100px;
+		font-size:		20px;
+		transform: translate(0, +25%)
+	}
+	
+	#IsWork,#IsSoft_Language{
+		left:			350px;
+		font-size:		30px;
+	}
+	
+	
 	#Work,#IsWork{
-		top:			150px;
+		top:			770px;
 	}
 	
 	#Soft_Language,#IsSoft_Language{
-		top:			200px;
+		top:			820px;
 	}
 </style>
 </head>
 
 <body>
+
+	<label id = "Self">自己紹介</label>
+	
+	<label id = "Image1">
+	<td bgcolor="#FFFFFF" align="center" valign="middle"><img src="Images/moon.png" width = "100%"></td>
+	</label>
+	
+	<label id = "Image2">
+	<td bgcolor="#FFFFFF" align="center" valign="middle"><img src="Images/Graph.png" width = "90%"></td>
+	</label>
+	
+	<label id = "Name">氏名</label>
+	<label id = "Birthday">生年月日</label>
+	<label id = "Game">好きなゲーム</label>
+	<label id = "Hobby">趣味</label>
+	<label id = "Food">好きな食べ物</label>
+	
+	<label id = "IsName">有薗唱太</label>
+	<label id = "IsBirthday">1999年9月1日</label>
+	<label id = "IsGame">GRAVITY DAZE・AKIBA'S TRIP</label>
+	<label id = "IsHobby">ミニ四駆</label>
+	<label id = "IsFood">ひよこ饅頭</label>
+
 	<label id = "Index">索引</label>
 	
-	<label id = "Self"><a href="self.html">自己紹介</a></label>
-	<label id = "Work"><a href="game.html">作品一覧</a></label>
-	<label id = "Soft_Language"><a href="soft_language.html">使用できるソフト・言語</a></label>
+	<label id = "Work"><a href="Game.html">作品一覧</a></label>
+	<label id = "Soft_Language"><a href="Soft_Language.html">使用できるソフト・言語</a></label>
 
 </form>
 
